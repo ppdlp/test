@@ -1,0 +1,148 @@
+{
+    "inspectTemplate": {
+        "displayName": "All Infotypes Template",
+        "description": "All Infotypes Template",
+        "inspectConfig": {
+            "customInfoTypes": [
+                {
+                    "likelihood": "LIKELY",
+                    "infoType": {
+                        "name": "AUTH_ANSWERS"
+                    },
+                    "storedType": {
+                    }
+                },
+                {
+                    "likelihood": "POSSIBLE",
+                    "infoType": {
+                        "name": "AUTH_PASSWORDS_DICT"
+                    },
+                    "storedType": {
+                    }
+                },
+                {
+                    "likelihood": "LIKELY",
+                    "infoType": {
+                        "name": "AUTH_KEYS_REX"
+                    },
+                    "storedType": {
+                    }
+                },
+                {
+                    "likelihood": "POSSIBLE",
+                    "infoType": {
+                        "name": "US_BANK_ACCOUNT_NUMBER_REX"
+                    },
+                    "storedType": {
+                    }
+                },
+                {
+                    "likelihood": "POSSIBLE",
+                    "infoType": {
+                        "name": "CVV_NUMBER_REX"
+                    },
+                    "storedType": {
+                    }
+                },
+                {
+                    "likelihood": "POSSIBLE",
+                    "infoType": {
+                        "name": "SOP_DICT"
+                    },
+                    "storedType": {
+                    }
+                }
+            ],
+            "ruleSet": [
+                {
+                    "rules": [
+                        {
+                            "hotwordRule": {
+                                "proximity": {
+                                    "windowBefore": 500,
+                                    "windowAfter": 500
+                                },
+                                "hotwordRegex": {
+                                },
+                                "likelihoodAdjustment": {
+                                    "relativeLikelihood": 1
+                                }
+                            }
+                        },
+                        {
+                            "hotwordRule": {
+                                "proximity": {
+                                    "windowBefore": 500,
+                                    "windowAfter": 500
+                                },
+                                "hotwordRegex": {
+                                },
+                                "likelihoodAdjustment": {
+                                    "relativeLikelihood": 1
+                                }
+                            }
+                        },
+                        {
+                            "hotwordRule": {
+                                "proximity": {
+                                    "windowBefore": 500,
+                                    "windowAfter": 500
+                                },
+                                "hotwordRegex": {
+                                },
+                                "likelihoodAdjustment": {
+                                    "relativeLikelihood": 1
+                                }
+                            }
+                        },
+                        {
+                            "hotwordRule": {
+                                "proximity": {
+                                    "windowBefore": 500,
+                                    "windowAfter": 500
+                                },
+                                "hotwordRegex": {
+                                },
+                                "likelihoodAdjustment": {
+                                    "relativeLikelihood": 1
+                                }
+                            }
+                        },
+                        {
+                            "hotwordRule": {
+                                "proximity": {
+                                    "windowBefore": 100,
+                                    "windowAfter": 100
+                                },
+                                "hotwordRegex": {
+                                },
+                                "likelihoodAdjustment": {
+                                    "relativeLikelihood": 1
+                                }
+                            }
+                        }
+                    ],
+                    "infoTypes": [
+                        {
+                            "name": "T"
+                        }
+                    ]
+                }
+            ],
+            "limits": {},
+            "infoTypes": [
+                {
+                    "name": "CREDIT_CARD_TRACK_NUMBER"
+                },
+                {
+                    "name": "MEXICO_CURP_NUMBER"
+                },
+                {
+                    "name": "JSON_WEB_TOKEN"
+                }
+            ],
+            "minLikelihood": "POSSIBLE"
+        }
+    },
+    "templateId": "template"
+}
